@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="bg">
+        <nav class="navbar">
+            <li class="text"><strong>Aditya</strong></li>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="abcd">
+            <h1 class="asc">Hello, <span class="auto-type"></span></h1>
+            <p class="dsc"><span class="auto"></span></p>
+        </div>
+    </header>
+
+    <div class="external">
+        <main id="about">
+            <h2>About Me</h2>
+            <div class="bjp">
+                <div class="top"><img src="C:\Users\adit1\Downloads\photo.jpg" alt="" id="imgg"></div>
+                <div>
+                    <div class="random1">
+                        <div>Student at DYPSOE</div>
+                        <div>Pursuing BE in Computer Science</div>
+                        <div>Age : 21</div>
+                        <div>From Delhi</div>
+                    </div>
+                    <div class="random">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quibusdam
+                        non facilis delectus cum totam iste nulla dolores! Sint et laboriosam possimus ea consequatur in
+                        officiis dolore, mollitia quod expedita.
+                        Provident mollitia distinctio nesciunt atque repudiandae. Sed illum dolores animi libero quos
+                        aliquid pariatur excepturi dicta! Perferendis qui corrupti voluptatem ab nulla veniam iure,
+                        alias dicta molestias iusto cupiditate nesciunt?
+                        Aliquid, ipsum.</div>
+
+                </div>
+            </div>
+
+            <h3>Education</h3>
+            <div class="education">
+                <div class="box1">
+                    <img src="C:\Users\adit1\Downloads\dypsoe image.png" alt="" id="soe">
+                    <div><a href="https://dypsoe.in/"><strong>D.Y. Patil School of Engineering</strong></a></div>
+                    <div class="position">Bachelors of engineering in Computer Science -
+                        Pursuing
+                    </div>
+                </div>
+                <div class="box2">
+                    <img src="C:\Users\adit1\Downloads\jd academy image.jpg" alt="">
+                    <div><a href="https://jdacademy.co.in/"><strong>J D Academy School</strong></a></div>
+                    <div class="position">12th Board -
+                        2020
+                    </div>
+                </div>
+                <div class="box3">
+                    <img src="C:\Users\adit1\Downloads\lps image.jpg" alt="">
+                    <div><a href="https://www.lpsschool.com/"><strong> Lovely Public School</strong></a></div>
+                    <div class="position">10th Board - 2018</div>
+                </div>
+            </div>
+
+            <h4>Skills</h4>
+            <div class="skills">
+                <div class="html"><img src="C:\Users\adit1\Downloads\HTML5_logo_and_wordmark.svg.png" alt=""></div>
+                <div><img src="C:\Users\adit1\Downloads\1452px-CSS3_logo_and_wordmark.svg.png" alt=""></div>
+                <div class="cpp"><img src="C:\Users\adit1\Downloads\ISO_C++_Logo.svg.png" alt=""></div>
+                <div class="javaScript"><img src="C:\Users\adit1\Downloads\JavaScript-Logo.png" alt=""></div>
+                <div class="mysql"><img src="C:\Users\adit1\Downloads\MySQL-Logo.png" alt=""></div>
+                <div class="java"><img src="C:\Users\adit1\Downloads\java.jpg" alt=""></div>
+            </div>
+
+            <!-- <div class="certificate">
+                <h5>Certification</h5>
+                <p>Machine Learning With Python & AI</p>
+            </div>
+            <div class="certify"><img src="images/Screenshot (9).png" alt=""></div> -->
+
+
+        </main>
+
+        <section id="services">
+            <div class="service">
+                <hr>
+                <h6>
+                    <bold>Services</bold>
+                </h6>
+                <p>
+                    <bold>Web Designing</bold>
+                </p>
+                <p>Future Proofing Business through design</p>
+                <div class="txt1">Front-end</div>
+                <div class="txt">Front-end web development is the development of the graphical user interface of a
+                    website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that
+                    website.</div>
+
+                <div class="cv">
+                    <a href="Resume2.pdf" download>Download Resume</a>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <section id="contact">
+        <div class="h7">Contact Me</div>
+        <div class="myself">
+            <div>
+                <div class="final">Let me know, how can i help</div>
+                <div class="final">I'm always on the hand to answer your questions.</div>
+                <div class="contact-form">
+                    <form action="">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" name="email" id="" placeholder="E-mail" required>
+                        <input type="text" placeholder="Write a subject" required>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                        <input type="submit" name="" value="submit" class="btn">
+                    </form>
+                </div>
+            </div>
+            <div>
+                <img src="C:\Users\adit1\Desktop\Adi photos\camera\IMG_20180806_213306_023.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: [" it's Aditya Singh"],
+            typeSpeed: 150,
+            /* backSpeed: 150, */
+            /* loop: true */
+        })
+
+        var typed = new Typed(".auto", {
+            strings: ["I'm a front-end Web developer"],
+            typeSpeed: 90
+        })
+    </script>
+</body>
+<script src="main.js"></script>
+
+</html>
